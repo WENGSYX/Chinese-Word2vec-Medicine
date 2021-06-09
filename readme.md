@@ -73,7 +73,7 @@ Out[37]:
 
 
 
-###此医学词向量含278256个生物医学相关词汇，维度512，使用gensim训练。
+### 此医学词向量含278256个生物医学相关词汇，维度512，使用gensim训练。
 
 ```python
 model = word2vec.Word2Vec(sent, sg=0, epochs=8,vector_size=512,  window=5,  min_count=4,  negative=3, sample=0.001, hs=1, workers=16)
