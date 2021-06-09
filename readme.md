@@ -18,9 +18,7 @@
 ### 提取码：**8888** 
 
 
-### 后续
 
-#### 做这个词向量主要是想搞一个医学领域的TRANSFORMERS模型，准备尝试MacBERT的预训练方法，（使用替换相似词的方法预训练），正在考虑使用BERT-LARGE还是T5模型中。。。后续可能开源，欢迎关注。
 
 
 
@@ -94,3 +92,7 @@ model = KeyedVectors.load_word2vec_format('Medical.txt', binary=False)
 
 ### 
 
+
+## 后续
+
+### 做这个词向量主要是想搞一个医学领域的TRANSFORMERS模型，准备尝试MacBERT的预训练方法，（使用替换相似词的方法预训练），正在考虑使用BERT-LARGE还是T5模型中。。。后续可能开源，欢迎关注。
