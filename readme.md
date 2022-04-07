@@ -91,13 +91,16 @@ model = word2vec.Word2Vec(sent, sg=0, epochs=8,vector_size=512,  window=5,  min_
 model = KeyedVectors.load_word2vec_format('Medical.txt', binary=False)
 ```
 
-### 
+### 训练语料
+可以从本人发布的另一个医疗数据集中，进行访问，（https://github.com/WENGSYX/CMCQA）
 
 ### 引用
 如果我的词向量能帮助您，欢迎引用：
+```
 @misc{MedicineWord2vec,
   title={ChineseWord2vecMedicine},
   author={Yixuan Weng},
   howpublished={\url{https://github.com/WENGSYX/Chinese-Word2vec-Medicine/edit/main/readme.md}},
   year={2021}
 }
+```
