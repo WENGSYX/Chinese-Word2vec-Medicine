@@ -100,7 +100,13 @@ model = KeyedVectors.load_word2vec_format('Medical.txt', binary=False)
 @misc{MedicineWord2vec,
   title={ChineseWord2vecMedicine},
   author={Yixuan Weng},
-  howpublished={\url{https://github.com/WENGSYX/Chinese-Word2vec-Medicine/edit/main/readme.md}},
+  howpublished={\url{https://github.com/WENGSYX/Chinese-Word2vec-Medicine}},
   year={2021}
+}
+@misc{CMCQA,
+  title={A large Chinese Medical CQA},
+  author={Yixuan Weng},
+  howpublished={\url{https://github.com/WENGSYX/CMCQA}},
+  year={2022}
 }
 ```
