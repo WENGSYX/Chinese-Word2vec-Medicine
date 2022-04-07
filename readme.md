@@ -93,3 +93,11 @@ model = KeyedVectors.load_word2vec_format('Medical.txt', binary=False)
 
 ### 
 
+### 引用
+如果我的词向量能帮助您，欢迎引用：
+@misc{MedicineWord2vec,
+  title={ChineseWord2vecMedicine},
+  author={Yixuan Weng},
+  howpublished={\url{https://github.com/WENGSYX/Chinese-Word2vec-Medicine/edit/main/readme.md}},
+  year={2021}
+}
