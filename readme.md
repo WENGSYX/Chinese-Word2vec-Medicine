@@ -96,16 +96,18 @@ model = KeyedVectors.load_word2vec_format('Medical.txt', binary=False)
 ### 引用
 如果我的词向量能帮助您，欢迎引用：
 ```
-@misc{MedicineWord2vec,
-  title={ChineseWord2vecMedicine},
-  author={Yixuan Weng},
-  howpublished={\url{https://github.com/WENGSYX/Chinese-Word2vec-Medicine}},
+@article{li2021more,
+  title={More but correct: Generating diversified and entity-revised medical response},
+  author={Li, Bin and Chen, Encheng and Liu, Hongru and Weng, Yixuan and Sun, Bin and Li, Shutao and Bai, Yongping and Hu, Meiling},
+  journal={arXiv preprint arXiv:2108.01266},
   year={2021}
 }
-@misc{CMCQA,
-  title={A large Chinese Medical CQA},
-  author={Yixuan Weng},
-  howpublished={\url{https://github.com/WENGSYX/CMCQA}},
-  year={2022}
+
+@article{weng2023large,
+  title={Large Language Models Need Holistically Thought in Medical Conversational QA},
+  author={Weng, Yixuan and Li, Bin and Xia, Fei and Zhu, Minjun and Sun, Bin and He, Shizhu and Liu, Kang and Zhao, Jun},
+  journal={arXiv preprint arXiv:2305.05410},
+  year={2023}
 }
+
 ```
