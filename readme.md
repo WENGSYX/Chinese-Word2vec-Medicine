@@ -96,11 +96,15 @@ model = KeyedVectors.load_word2vec_format('Medical.txt', binary=False)
 ### 引用
 如果我的词向量能帮助您，欢迎引用：
 ```
-@article{li2021more,
-  title={More but correct: Generating diversified and entity-revised medical response},
-  author={Li, Bin and Chen, Encheng and Liu, Hongru and Weng, Yixuan and Sun, Bin and Li, Shutao and Bai, Yongping and Hu, Meiling},
-  journal={arXiv preprint arXiv:2108.01266},
-  year={2021}
+@article{li2024distinct,
+  title={Distinct but correct: generating diversified and entity-revised medical response},
+  author={Li, Bin and Sun, Bin and Li, Shutao and Chen, Encheng and Liu, Hongru and Weng, Yixuan and Bai, Yongping and Hu, Meiling},
+  journal={Science China Information Sciences},
+  volume={67},
+  number={3},
+  pages={1--20},
+  year={2024},
+  publisher={Springer}
 }
 
 @article{weng2023large,
