@@ -23,6 +23,16 @@
 
 
 
+## 训练与使用
+```
+python chinese-medical-word2vec.py --corpus_dir ./corpus --output_dir ./output --med_dict ./med_dict.txt
+```
+
+
+## 测试
+```
+python usage-example.py
+```
 
 ## 词向量对比
 
